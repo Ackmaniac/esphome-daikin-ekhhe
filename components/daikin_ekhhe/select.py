@@ -105,6 +105,7 @@ CONFIG_SCHEMA = (
             }),
         }
     )
+    .extend(cv.COMPONENT_SCHEMA)
 )
 
 
